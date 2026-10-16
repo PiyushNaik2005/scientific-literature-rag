@@ -1,0 +1,523 @@
+[
+  {
+    "question": "What is the core innovation of the Transformer architecture?",
+    "expected_arxiv_id": "1706.03762",
+    "retrieved_ids": [
+      "2204.02311",
+      "2106.09685",
+      "1910.10683",
+      "1910.01108",
+      "2001.08361",
+      "2112.10752",
+      "1909.11942",
+      "2104.09864"
+    ],
+    "hit": false
+  },
+  {
+    "question": "How does multi-head attention differ from single-head attention?",
+    "expected_arxiv_id": "1706.03762",
+    "retrieved_ids": [
+      "1706.03762",
+      "1710.10903",
+      "1910.10683",
+      "2010.11929"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What positional encoding scheme is used in the original Transformer?",
+    "expected_arxiv_id": "1706.03762",
+    "retrieved_ids": [
+      "2010.11929",
+      "1910.10683",
+      "2104.09864",
+      "1706.03762",
+      "2106.09685",
+      "2112.10752"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the feed-forward sublayer in the Transformer block?",
+    "expected_arxiv_id": "1706.03762",
+    "retrieved_ids": [
+      "1910.10683",
+      "2112.10752",
+      "1706.03762",
+      "2010.11929"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What pretraining objectives does BERT use?",
+    "expected_arxiv_id": "1810.04805",
+    "retrieved_ids": [
+      "1810.04805",
+      "1910.01108",
+      "1909.11942",
+      "1910.10683"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does BERT handle bidirectionality compared to GPT?",
+    "expected_arxiv_id": "1810.04805",
+    "retrieved_ids": [
+      "1810.04805",
+      "2005.14165",
+      "1910.10683",
+      "1909.11942"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the WordPiece tokenization used in BERT?",
+    "expected_arxiv_id": "1810.04805",
+    "retrieved_ids": [
+      "1909.11942",
+      "1910.10683",
+      "1810.04805"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is few-shot learning as described in the GPT-3 paper?",
+    "expected_arxiv_id": "2005.14165",
+    "retrieved_ids": [
+      "2005.14165",
+      "2103.00020",
+      "2204.02311"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How large is the GPT-3 model in terms of parameters?",
+    "expected_arxiv_id": "2005.14165",
+    "retrieved_ids": [
+      "2106.09685",
+      "2005.14165",
+      "2203.15556",
+      "2204.02311",
+      "2205.01068",
+      "2010.14701",
+      "2203.02155"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does the Vision Transformer (ViT) process image patches?",
+    "expected_arxiv_id": "2010.11929",
+    "retrieved_ids": [
+      "2010.11929",
+      "2111.11418",
+      "2103.00020"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What dataset size is required for ViT to match CNNs?",
+    "expected_arxiv_id": "2010.11929",
+    "retrieved_ids": [
+      "2010.11929",
+      "2103.00020",
+      "2111.11418",
+      "1409.1556"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the residual connection in ResNet?",
+    "expected_arxiv_id": "1512.03385",
+    "retrieved_ids": [
+      "1512.03385",
+      "1608.05343"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How deep is the deepest ResNet variant in the original paper?",
+    "expected_arxiv_id": "1512.03385",
+    "retrieved_ids": [
+      "1512.03385",
+      "1409.1556",
+      "2103.00020"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What problem does Batch Normalization address?",
+    "expected_arxiv_id": "1502.03167",
+    "retrieved_ids": [
+      "1502.03167"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does batch normalization affect training speed?",
+    "expected_arxiv_id": "1502.03167",
+    "retrieved_ids": [
+      "1502.03167"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does the Adam optimizer combine momentum and RMSProp?",
+    "expected_arxiv_id": "1412.6980",
+    "retrieved_ids": [
+      "1412.6980",
+      "1207.0580",
+      "2204.02311"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What are the default hyperparameter values for Adam?",
+    "expected_arxiv_id": "1412.6980",
+    "retrieved_ids": [
+      "2103.00020",
+      "2204.02311",
+      "1412.6980",
+      "2010.11929",
+      "1609.02907"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the reparameterization trick in VAEs?",
+    "expected_arxiv_id": "1312.6114",
+    "retrieved_ids": [
+      "1312.6114",
+      "1502.03167",
+      "1412.6980",
+      "2010.11929",
+      "2005.14165",
+      "2103.00020",
+      "2111.11418"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the ELBO objective in variational autoencoders?",
+    "expected_arxiv_id": "1312.6114",
+    "retrieved_ids": [
+      "1312.6114",
+      "1810.04805"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the minimax game in the original GAN paper?",
+    "expected_arxiv_id": "1406.2661",
+    "retrieved_ids": [
+      "tmp47_5waj_",
+      "1406.2661",
+      "2103.00020",
+      "2112.10752",
+      "1412.6980"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the mode collapse problem in GANs?",
+    "expected_arxiv_id": "1406.2661",
+    "retrieved_ids": [
+      "2112.10752",
+      "2103.00020"
+    ],
+    "hit": false
+  },
+  {
+    "question": "How does dropout prevent overfitting in neural networks?",
+    "expected_arxiv_id": "1207.0580",
+    "retrieved_ids": [
+      "1207.0580",
+      "1512.03385",
+      "1412.6980",
+      "1909.11942"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does T5 frame all NLP tasks as text-to-text?",
+    "expected_arxiv_id": "1910.10683",
+    "retrieved_ids": [
+      "1910.10683",
+      "2204.02311",
+      "1810.04805"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the key idea behind LoRA for efficient fine-tuning?",
+    "expected_arxiv_id": "2106.09685",
+    "retrieved_ids": [
+      "2106.09685"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does LoRA reduce the number of trainable parameters?",
+    "expected_arxiv_id": "2106.09685",
+    "retrieved_ids": [
+      "2106.09685"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does CLIP learn image-text representations?",
+    "expected_arxiv_id": "2103.00020",
+    "retrieved_ids": [
+      "2103.00020",
+      "2112.10752"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What training dataset does CLIP use?",
+    "expected_arxiv_id": "2103.00020",
+    "retrieved_ids": [
+      "2103.00020"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the key contribution of Latent Diffusion Models?",
+    "expected_arxiv_id": "2112.10752",
+    "retrieved_ids": [
+      "2112.10752"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What masking ratio does MAE use during pretraining?",
+    "expected_arxiv_id": "2111.11418",
+    "retrieved_ids": [
+      "1409.1556",
+      "2307.09288",
+      "2001.08361",
+      "2005.14165",
+      "2205.01068",
+      "2010.11929",
+      "2305.10403"
+    ],
+    "hit": false
+  },
+  {
+    "question": "What is RLHF and how is it used to align language models?",
+    "expected_arxiv_id": "2203.02155",
+    "retrieved_ids": [
+      "2203.02155",
+      "2307.09288",
+      "2005.14165",
+      "2111.11418",
+      "1810.04805"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the clipped surrogate objective in PPO?",
+    "expected_arxiv_id": "1707.06347",
+    "retrieved_ids": [
+      "1707.06347"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does Graph Convolutional Network aggregate neighbor features?",
+    "expected_arxiv_id": "1609.02907",
+    "retrieved_ids": [
+      "1710.10903",
+      "1609.02907"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What does the scaling law paper find about compute-optimal training?",
+    "expected_arxiv_id": "2001.08361",
+    "retrieved_ids": [
+      "2203.15556",
+      "2001.08361",
+      "2010.14701",
+      "2302.13971",
+      "2305.10403",
+      "2005.14165"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the Chinchilla finding about model size vs tokens?",
+    "expected_arxiv_id": "2203.15556",
+    "retrieved_ids": [
+      "2203.15556"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does FlashAttention reduce memory usage?",
+    "expected_arxiv_id": "2205.01068",
+    "retrieved_ids": [
+      "1909.11942",
+      "2106.09685",
+      "2209.01188",
+      "2204.02311"
+    ],
+    "hit": false
+  },
+  {
+    "question": "What quantization technique does QLoRA use?",
+    "expected_arxiv_id": "2305.10403",
+    "retrieved_ids": [
+      "2106.09685",
+      "2010.09700",
+      "2104.09864",
+      "2112.10752",
+      "2001.08361"
+    ],
+    "hit": false
+  },
+  {
+    "question": "How do ELMo embeddings differ from word2vec embeddings?",
+    "expected_arxiv_id": "1803.05457",
+    "retrieved_ids": [
+      "1810.04805",
+      "1909.11942",
+      "2010.11929",
+      "2204.02311"
+    ],
+    "hit": false
+  },
+  {
+    "question": "What training differences does RoBERTa make compared to BERT?",
+    "expected_arxiv_id": "1909.11942",
+    "retrieved_ids": [
+      "1910.10683",
+      "1810.04805",
+      "1909.11942",
+      "1910.01108"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does DistilBERT reduce BERT's size while keeping performance?",
+    "expected_arxiv_id": "1910.01108",
+    "retrieved_ids": [
+      "1910.01108",
+      "2106.09685",
+      "1810.04805",
+      "1910.10683",
+      "1909.11942"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the architecture of the original LLaMA model?",
+    "expected_arxiv_id": "2302.13971",
+    "retrieved_ids": [
+      "2307.09288",
+      "2302.13971"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What safety training is applied to LLaMA 2?",
+    "expected_arxiv_id": "2307.09288",
+    "retrieved_ids": [
+      "2302.13971",
+      "2307.09288",
+      "2204.02311",
+      "2205.01068",
+      "1312.6114"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does DeiT train vision transformers without external data?",
+    "expected_arxiv_id": "2010.09700",
+    "retrieved_ids": [
+      "2010.11929",
+      "2111.11418",
+      "2205.01068",
+      "2103.00020",
+      "1910.10683"
+    ],
+    "hit": false
+  },
+  {
+    "question": "How does Graph Attention Network assign weights to neighbors?",
+    "expected_arxiv_id": "1710.10903",
+    "retrieved_ids": [
+      "1710.10903",
+      "1609.02907"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the architectural principle of VGGNet?",
+    "expected_arxiv_id": "1409.1556",
+    "retrieved_ids": [
+      "1409.1556",
+      "1512.03385",
+      "2204.02311",
+      "1710.10903",
+      "1608.05343",
+      "1706.03762",
+      "2001.08361"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is Rotary Position Embedding (RoPE)?",
+    "expected_arxiv_id": "2104.09864",
+    "retrieved_ids": [
+      "2104.09864",
+      "2204.02311",
+      "2010.11929",
+      "2302.13971"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How does the original DALL-E generate images from text?",
+    "expected_arxiv_id": "2010.14701",
+    "retrieved_ids": [
+      "2112.10752",
+      "2010.14701",
+      "2103.00020"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What role does CLIP play in DALL-E 2?",
+    "expected_arxiv_id": "2204.02311",
+    "retrieved_ids": [
+      "2103.00020",
+      "1910.10683"
+    ],
+    "hit": false
+  },
+  {
+    "question": "What is parameter-efficient fine-tuning (PEFT)?",
+    "expected_arxiv_id": "2209.01188",
+    "retrieved_ids": [
+      "1910.10683",
+      "2209.01188",
+      "1810.04805",
+      "2106.09685"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What is the main idea behind curriculum learning in training?",
+    "expected_arxiv_id": "1608.05343",
+    "retrieved_ids": [
+      "1910.10683",
+      "2005.14165",
+      "2204.02311",
+      "2305.10403",
+      "2103.00020",
+      "2001.08361"
+    ],
+    "hit": false
+  }
+]

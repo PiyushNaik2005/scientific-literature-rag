@@ -1,0 +1,165 @@
+[
+  {
+    "question": "What is the core innovation of the Transformer architecture?",
+    "expected": "1706.03762",
+    "top_retrieved": [
+      "2204.02311",
+      "2106.09685",
+      "1910.10683",
+      "1910.01108",
+      "2001.08361"
+    ],
+    "top_scores": [
+      0.5133246779441833,
+      0.47825920581817627,
+      0.4963061809539795,
+      0.47757017612457275,
+      0.48520344495773315
+    ],
+    "diagnosis": "Top result was '2204.02311v5' with score 0.513. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "What is the mode collapse problem in GANs?",
+    "expected": "1406.2661",
+    "top_retrieved": [
+      "2112.10752",
+      "2103.00020"
+    ],
+    "top_scores": [
+      0.4470632076263428,
+      0.4645026922225952,
+      0.4635862708091736,
+      0.4064394235610962,
+      0.42123091220855713
+    ],
+    "diagnosis": "Top result was '2112.10752v2' with score 0.447. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "What masking ratio does MAE use during pretraining?",
+    "expected": "2111.11418",
+    "top_retrieved": [
+      "1409.1556",
+      "2307.09288",
+      "2001.08361",
+      "2005.14165",
+      "2205.01068"
+    ],
+    "top_scores": [
+      0.4646736979484558,
+      0.42012858390808105,
+      0.4343927502632141,
+      0.42179930210113525,
+      0.44934284687042236
+    ],
+    "diagnosis": "Top result was '1409.1556v6' with score 0.465. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "How does FlashAttention reduce memory usage?",
+    "expected": "2205.01068",
+    "top_retrieved": [
+      "1909.11942",
+      "2106.09685",
+      "2209.01188",
+      "2204.02311"
+    ],
+    "top_scores": [
+      0.38739120960235596,
+      0.3726632595062256,
+      0.40686529874801636,
+      0.39445531368255615,
+      0.3684680461883545
+    ],
+    "diagnosis": "Top result was '1909.11942v6' with score 0.387. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "What quantization technique does QLoRA use?",
+    "expected": "2305.10403",
+    "top_retrieved": [
+      "2106.09685",
+      "2010.09700",
+      "2104.09864",
+      "2112.10752",
+      "2001.08361"
+    ],
+    "top_scores": [
+      0.3553718328475952,
+      0.3265538215637207,
+      0.328640341758728,
+      0.346561074256897,
+      0.3233238458633423
+    ],
+    "diagnosis": "Top result was '2106.09685v2' with score 0.355. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "How do ELMo embeddings differ from word2vec embeddings?",
+    "expected": "1803.05457",
+    "top_retrieved": [
+      "1810.04805",
+      "1909.11942",
+      "2010.11929",
+      "2204.02311"
+    ],
+    "top_scores": [
+      0.5356683731079102,
+      0.4759773015975952,
+      0.44010621309280396,
+      0.4830394983291626,
+      0.4551176428794861
+    ],
+    "diagnosis": "Top result was '1810.04805v2' with score 0.536. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "How does DeiT train vision transformers without external data?",
+    "expected": "2010.09700",
+    "top_retrieved": [
+      "2010.11929",
+      "2111.11418",
+      "2205.01068",
+      "2103.00020",
+      "1910.10683"
+    ],
+    "top_scores": [
+      0.5040034055709839,
+      0.5366861820220947,
+      0.5043280720710754,
+      0.5253380537033081,
+      0.5307204723358154
+    ],
+    "diagnosis": "Top result was '2010.11929v2' with score 0.504. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "What role does CLIP play in DALL-E 2?",
+    "expected": "2204.02311",
+    "top_retrieved": [
+      "2103.00020",
+      "1910.10683"
+    ],
+    "top_scores": [
+      0.3985884189605713,
+      0.35752642154693604,
+      0.39876317977905273,
+      0.374126672744751,
+      0.34140676259994507
+    ],
+    "diagnosis": "Top result was '2103.00020v1' with score 0.399. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  },
+  {
+    "question": "What is the main idea behind curriculum learning in training?",
+    "expected": "1608.05343",
+    "top_retrieved": [
+      "1910.10683",
+      "2005.14165",
+      "2204.02311",
+      "2305.10403",
+      "2103.00020"
+    ],
+    "top_scores": [
+      0.3933640718460083,
+      0.3805927038192749,
+      0.38124316930770874,
+      0.3958168625831604,
+      0.4146517515182495
+    ],
+    "diagnosis": "Top result was '1910.10683v4' with score 0.393. Possible causes: (1) expected paper not in knowledge base, (2) query phrasing too different from chunk text, (3) relevant chunk was split across boundary."
+  }
+]

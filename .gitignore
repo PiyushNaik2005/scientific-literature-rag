@@ -1,0 +1,16 @@
+*.pdf
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+data/chroma_db/
+data/papers/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+logs/
+venv/
+.venv/

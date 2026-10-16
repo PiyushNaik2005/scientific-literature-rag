@@ -1,0 +1,207 @@
+[
+  {
+    "question": "What is the key idea behind LoRA for efficient fine-tuning?",
+    "answer": "Similarly, combining LoRA with other tensor product-based methods could potentially improve its parameter efficiency, which we leave to future work. [1] Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning. [2] ngthestoragerequirementandtask-switchingover- headsignificantly.ngthestoragerequirementandtask-switchingover- headsignificantly.• LoRA makes training more efficient and lowers the hardware barrier to entry by up to 3 times when using adaptive optimizers since we do not need to calculate the gradients or maintaintheoptimizerstatesformostparameters. [3] The gap between prefix-based approaches and LoRA/Fine-tuning becomes smaller as we in- creasethenumberoftrainingexamples, whichmightsuggestthatprefix-basedapproachesarenot suitable for low-data tasks in GPT-3. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "How does Graph Convolutional Network aggregate neighbor features?",
+    "answer": "This complexity is on par with the baseline methods such as Graph Convolutional Networks (GCNs) (Kipf & Welling,. [1] We motivate the choice of our convolutional archi-tecture via a localized first-order approximation of spectral graph convolutions. [2] Weconsideramulti-layerGraphConvolutional Network(GCN)withthefollowinglayer-wisepropagationrule: (cid:16) (cid:17) H(l+1) =σ D˜−1 2A˜D˜− 2 1H(l)W(l) . [3] PublishedasaconferencepaperatICLR2017 SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS ThomasN.Kipf MaxWelling UniversityofAmsterdam UniversityofAmsterdam T.N.Kipf@uva.nl CanadianInstituteforAdvancedResearch(CIFAR) M.Welling@uva.nl Wepresentascalableapproachforsemi-supervisedlearningongraph-structured data thatis basedon anefficient variantof convolutional neuralnetworks which operate directly on graphs. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is few-shot learning as described in the GPT-3 paper?",
+    "answer": "databutthisappears tohaveonlyasmalleffectonresults(seeSection4).databutthisappears tohaveonlyasmalleffectonresults(seeSection4).On the more difficult Winogrande dataset, we do find gains to in-context learning: GPT-3 achieves 70.2% in the zero-shot setting, 73.2% in the one-shot setting, and 77.7% in the few-shot setting. [1] • Few-Shot(FS) is theterm wewill usein thisworkto referto thesetting wherethe modelis givena few demonstrationsofthetaskatinferencetimeasconditioning[RWC+19],butnoweightupdatesareallowed. [2] GPT-3 in the few-shot setting approaches the performance of state-of-the-artfine-tunedmodels. [3]",
+    "n_sentences": 3,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What safety training is applied to LLaMA 2?",
+    "answer": "ind both Chinchilla- of parameters, LLaMA outperforms other gen-ind both Chinchilla- of parameters, LLaMA outperforms other gen-70BandPaLM-540Bbyafewpercentinaverage, eral models such as LaMDA and PaLM, which andacrossmostdomains. [1] epresents a significant step forward in LLM training efficiency.epresents a significant step forward in LLM training efficiency.3Gopher’strainingspeedof0.0152stepspersecondisbasedonpersonalcommunicationwiththeauthors. [2] (2020), the primary evalu- tings,andcharacterizedbehaviorswithrespectto ation criterion for LLMs has been prompt-based bias,toxicityandhatespeech. [3]",
+    "n_sentences": 3,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is parameter-efficient fine-tuning (PEFT)?",
+    "answer": "e fine-tuning method we consider is “gradual unfreezing” (Howarde fine-tuning method we consider is “gradual unfreezing” (Howardand Ruder, 2018). [1] Few-shot parameter-efficient fine- shia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, tuningisbetterandcheaperthanin-contextlearning. [2] During fine-tuning, all parameters are fine-tuned. [3] erformance of these fine-tuning approaches is shown in Table 10.erformance of these fine-tuning approaches is shown in Table 10.For adapter layers, we report the performance using an inner dimensionality d of 32, 128, 512, 2048. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What does the scaling law paper find about compute-optimal training?",
+    "answer": "Optimal model scalingWe find that the three approaches, despite using different fitting methodologies and different trained models, yield comparable predictions for the optimal scaling in parameters and tokens with FLOPs (shown in Table 2). [1] OurfindingssuggeststhatthecurrentgenerationofTable 2 | Estimated parameter and data scaling with increased training compute. [2] Since the amount of data used by compute-efficient training grows slowly with the compute budget, the performancepredictedbyL(C )eventuallyhitsalowerboundsetbytheL(D)powerlaw(seeFigure15). [3] nge of models varying both model size and the number of trainingnge of models varying both model size and the number of trainingtokens and use the resulting training curves to fit an empirical estimator of how they should scale. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is the WordPiece tokenization used in BERT?",
+    "answer": "BERT (Devlin et al., 2018) also uses a fully-visiblemasking pattern and appends a special “classification” token to the input. [1] Since BERT is anencoder-only model, its goal during pre-training is to reconstruct masked tokens at the output of the encoder. [2] Thebestperformingmethodconcatenatesthe by applying BERT to the CoNLL-2003 Named tokenrepresentationsfromthetopfourhiddenlay- Entity Recognition (NER) task (Tjong Kim Sang ers of the pre-trained Transformer, which is only andDeMeulder,2003). [3] The BERT-style objective (second row) includes a corruption where some tokens are replaced by a random. [4]",
+    "n_sentences": 4,
+    "n_flagged": 1,
+    "flagged_sentences": [
+      {
+        "sentence": "[1] Since BERT is anencoder-only model, its goal during pre-training is to reconstruct masked tokens at the output of the encoder.",
+        "score": 0.2873074412345886,
+        "supported": false
+      }
+    ],
+    "not_found": false
+  },
+  {
+    "question": "What positional encoding scheme is used in the original Transformer?",
+    "answer": "betweentheperformancesofthemodelwithnopositionalembeddingandmod-betweentheperformancesofthemodelwithnopositionalembeddingandmod-els with positional embedding, there is little to no difference between different ways of encoding positional information. [1] While the original Transformer used a sinusoidal position signal or learned position embeddings, it has recently become more common to use relative position embeddings (Shaw et al., 2018; Huang et al., 2018a). [2] Experimentalresultsonvariouslongtextclassificationbenchmarkdatasets show that the enhanced transformer with rotary position embedding, namely RoFormer, can give better performancecomparedtobaselinealternativesandthusdemonstratestheefficacyoftheproposedRoPE. [3] : Positionembeddingsofmodelstrainedwithdifferenthyperparameters.: Positionembeddingsofmodelstrainedwithdifferenthyperparameters.the stem of them model and before feeding the inputs to the Transformer encoder (default across all other experiments in this paper); (2) learn and add positional embeddings to the inputs at the beginningofeachlayer; (3)addalearnedpositionalembeddingstotheinputsatthebeginningof eachlayer(sharedbetweenlayers). [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is the mode collapse problem in GANs?",
+    "answer": "Beinglikelihood-basedmodels,theydonot andsuper-resolution,whilesignificantlyreducingcomputa- exhibit mode-collapse and training instabilities as GANs tionalrequirementscomparedtopixel-basedDMs. [1] Moreover, LDMs consistently improve upon GAN-basede,seeFig.1-2. [2] Sdedit: Image synthesis ganation: Implications of gans exacerbating biases on fa- and editing with stochastic differential equations. [3] and avoid the difficulty of weighing reconstruction quality againstlearningtheprioroverthelatentspace,seeFig.1-2. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "How does the original DALL-E generate images from text?",
+    "answer": "or text-to-image synthesis, LDM-8 (KL), which was trained on theor text-to-image synthesis, LDM-8 (KL), which was trained on theLAION[78]database.Samplesgeneratedwith200DDIMstepsandη=1.0.Weuseunconditionalguidance[32]withs=10.0. [1] Samples for user-defined text prompts from our model for text-to-image synthesis, LDM-8 (KL), which was trained on the. [2] sion text-to-image generation by learning a joint distributationsion text-to-image generation by learning a joint distributationoverdiscretizedimageandtextrepresentations. [3] We simply concatenate together the token lists for BPE encoding of text (using the tokenization of [BMR+20])andthe[0,255]colorscaleofeachoftheRGBpixelsintheimages,andletthemodellearnthe necessaryembeddingmatrix. [4]",
+    "n_sentences": 4,
+    "n_flagged": 4,
+    "flagged_sentences": [
+      {
+        "sentence": "or text-to-image synthesis, LDM-8 (KL), which was trained on theor text-to-image synthesis, LDM-8 (KL), which was trained on theLAION[78]database.Samplesgeneratedwith200DDIMstepsandη=1.0.Weuseunconditionalguidance[32]withs=10.0.",
+        "score": -0.3776516318321228,
+        "supported": false
+      },
+      {
+        "sentence": "[1] Samples for user-defined text prompts from our model for text-to-image synthesis, LDM-8 (KL), which was trained on the.",
+        "score": -0.6440131664276123,
+        "supported": false
+      },
+      {
+        "sentence": "[2] sion text-to-image generation by learning a joint distributationsion text-to-image generation by learning a joint distributationoverdiscretizedimageandtextrepresentations.",
+        "score": -0.7305135726928711,
+        "supported": false
+      },
+      {
+        "sentence": "[3] We simply concatenate together the token lists for BPE encoding of text (using the tokenization of [BMR+20])andthe[0,255]colorscaleofeachoftheRGBpixelsintheimages,andletthemodellearnthe necessaryembeddingmatrix.",
+        "score": 0.45681244134902954,
+        "supported": false
+      }
+    ],
+    "not_found": false
+  },
+  {
+    "question": "What is the Chinchilla finding about model size vs tokens?",
+    "answer": "d be scaled equally: for every doubling of model size the numberd be scaled equally: for every doubling of model size the numberof training tokens should also be doubled. [1] Not only does Chinchilla outperform its much larger counterpart, Gopher, but its reduced model size reduces inference cost considerably and greatly facilitates downstream uses on smaller hardware. [2] We test this hypothesis by training a model on the larger end of this range—70B parameters—for 1.4T tokens, due to both dataset and computational efficiency considerations. [3] We show five of the current largest dense transformer models, their size, and the number of training tokens. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is the feed-forward sublayer in the Transformer block?",
+    "answer": "Adapter layers are additional dense-ReLU-dense blocks that are added after each of the preexisting feed-forward networks in each block of the Transformer. [1] ., 2014) is applied within the feed-forward network, on the skip., 2014) is applied within the feed-forward network, on the skipconnection, on the attention weights, and at the input and output of the entire stack. [2] More specifically, the transformer is implemented from N transformer blocks consisting of global self-attention layers,layer-normalizationandposition-wiseMLPsasfollows2: 2adaptedfromhttps://github.com/lucidrains/x-transformers. [3] http://jalammar.github.io/illustrated-transformer/Exploring the Limits of Transfer Learning mechanism after each self-attention layer that attends to the output of the encoder. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "How does T5 frame all NLP tasks as text-to-text?",
+    "answer": "the damage after an onslaught of severe weather in mississippi…\"the damage after an onslaught of severe weather in mississippi…\"Figure 1: A diagram of our text-to-text framework. [1] many NLP tasks as “span extraction”, where text corresponding tomany NLP tasks as “span extraction”, where text corresponding topossible output choices are appended to the input and the model is trained to extract the input span corresponding to the correct choice. [2] Crucially, the text-to-text frameworkskar et al. [3] Our text-to-text framework follows previous work that casts multiple NLP tasks into a common format: McCann et al. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What is the clipped surrogate objective in PPO?",
+    "answer": "e “clipped” surrogate objective from Section 3) to several othere “clipped” surrogate objective from Section 3) to several othermethodsfromtheliterature, whichareconsideredtobeeffectiveforcontinuousproblems. [1] is is the point at which LCLIP is maximal. [2] performance of TRPO, while using only first-order optimization.We propose a novel objective with clipped probability ratios, which forms a pessimistic estimate (i.e., lower bound) of the performance of the policy. [3] Finally, we take the minimum of the clipped and unclipped objective, so the − final objective is a lower bound (i.e., a pessimistic bound) on the unclipped objective. [4]",
+    "n_sentences": 4,
+    "n_flagged": 1,
+    "flagged_sentences": [
+      {
+        "sentence": "[3] Finally, we take the minimum of the clipped and unclipped objective, so the − final objective is a lower bound (i.e., a pessimistic bound) on the unclipped objective.",
+        "score": 0.47301170229911804,
+        "supported": false
+      }
+    ],
+    "not_found": false
+  },
+  {
+    "question": "How does DistilBERT reduce BERT's size while keeping performance?",
+    "answer": "yandlife)andalongtailofvalidpredictions (future,story,world...).Table 1: DistilBERT retains 97% of BERT performance. [1] herwecouldaddanotherstepofdistillationduringtheadaptationphasebyherwecouldaddanotherstepofdistillationduringtheadaptationphasebyfine-tuning DistilBERT on SQuAD using a BERT model previously fine-tuned on SQuAD as a 4Weusejiant[Wangetal.,2019]tocomputethebaseline. [2] time Model IMDb SQuAD (Millions) (seconds) (acc.) (EM/F1) ELMo 180 895 BERT-base 93.46 81.2/88.5 BERT-base 110 668 DistilBERT 92.82 77.7/85.8 DistilBERT 66 410 DistilBERT(D) - 79.1/86.9. [3] s a more recent variant of BERT that is trained on a much largers a more recent variant of BERT that is trained on a much largerscale and performs very competitively on benchmarks such as GLUE (Wang et al., 2019) and Su- perGLUE (Wang et al., 2020). [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "How does DeiT train vision transformers without external data?",
+    "answer": "Thus, Vision Transformer matches or exceeds the state of the art on many image classification datasets,whilstbeingrelativelycheaptopre-train. [1] ng DeiT ing the token mixing approach of Transformers by shiftedng DeiT ing the token mixing approach of Transformers by shifted[53] and ResMLP [52], as shown in Figure 1(b). [2] , which are often In this technical report, we present Open Pre-, which are often In this technical report, we present Open Pre-trainedforhundredsofthousandsofcompute trained Transformers (OPT), a suite of decoder- days, have shown remarkable capabilities for onlypre-trainedtransformersrangingfrom125M zero-andfew-shotlearning. [3] sform and and Transformers to vision tasks [3,8,44,55]. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "What quantization technique does QLoRA use?",
+    "answer": "ormodelparallelism,thethroughputis43.1tokens/sperV100GPUforLoRA.Model&Method #Trainable Parameters MNLI SST-2 MRPC CoLA QNLI QQP RTE STS-B Avg. [1] inationofLoRA+PEdoesn’tperformbetterthanLoRA,possiblybecauseLoRAinationofLoRA+PEdoesn’tperformbetterthanLoRA,possiblybecauseLoRAon its own already achieves performance comparable to the human baseline. [2] le quantum tained by the use of “Coherent Peaked States” (CPSs),le quantum tained by the use of “Coherent Peaked States” (CPSs),states and to specific regimes of approximation of their in which the fundamental GFT quanta collectively (and quantum dynamics [31]. [3] quan- can be defined as a Hermitean operator whose action on I Iquan- can be defined as a Hermitean operator whose action on I Itized volume operator in the group representation. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  },
+  {
+    "question": "How does batch normalization affect training speed?",
+    "answer": "We wereinterestedinthecomparisonbe- we have been able to achieve a training speedup from tweenthebaselineandbatch-normalizednetworks,rather higherlearningrates,withnoillsideeffects(Sec.3.3). [1] Batch Normaliza- tion helps address these issues. [2] raM ]GL.sc[ 3v76130.2051:viXra Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift Sergey Ioffe ChristianSzegedy GoogleInc.,sioffe@google.com GoogleInc.,szegedy@google.com Abstract Usingmini-batchesofexamples,asopposedtooneexam- pleatatime,ishelpfulinseveralways. [3] It ac- the training s X et, an { d E[x] } = 1 bN x . [4]",
+    "n_sentences": 4,
+    "n_flagged": 1,
+    "flagged_sentences": [
+      {
+        "sentence": "[1] Batch Normaliza- tion helps address these issues.",
+        "score": 0.041815318167209625,
+        "supported": false
+      }
+    ],
+    "not_found": false
+  },
+  {
+    "question": "How does CLIP learn image-text representations?",
+    "answer": "CLIPperformsabitmorerespectivelyanditsperformanceissimilartoJaderbergetal.(2014)earlyworkcombining E.1.ImageandTextRetrieval deep learning and structured prediction to perform open- CLIPpre-trainsforthetaskofimage-textretrievalonour vocabularyOCR.However,performanceisnoticeablylower noisyweb-scaledataset. [1] CLIP is instead fo- cused on learning visual models from scratch via natural Alcorn,M.A.,Li,Q.,Gong,Z.,Wang,C.,Mai,L.,Ku,W.- languagesupervisionanddoesnotdenselyconnectthetwo S.,andNguyen,A. [2] Large national Conference on Learning Representations, ICLRyan. [3]",
+    "n_sentences": 3,
+    "n_flagged": 1,
+    "flagged_sentences": [
+      {
+        "sentence": "[2] Large national Conference on Learning Representations, ICLRyan.",
+        "score": 0.2730129659175873,
+        "supported": false
+      }
+    ],
+    "not_found": false
+  },
+  {
+    "question": "How does dropout prevent overfitting in neural networks?",
+    "answer": "What we wanted to demonstrate is that dropout is a significant help even for the very complex neural nets that have been developed by the joint efforts of many groups over many years to be really good at object recognition. [1] thesenetworkssharethesameweightsforthehiddenunitsthatarepresent.thesenetworkssharethesameweightsforthehiddenunitsthatarepresent.We use the standard, stochastic gradient descent procedure for training the dropout neural networks on mini-batches of training cases, but we modify the penalty term that is normally used to prevent the weights from growing too large. [2] Random “dropout” gives big improvements on manyit must operate. [3] A.3 Effect on features One reason why dropout gives major improvements over backpropagation is that it encourages each individual hidden unit to learn a useful feature without relying on specific other hidden unitstocorrectitsmistakes. [4]",
+    "n_sentences": 4,
+    "n_flagged": 0,
+    "flagged_sentences": [],
+    "not_found": false
+  }
+]
